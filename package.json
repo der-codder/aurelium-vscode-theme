@@ -1,0 +1,27 @@
+{
+  "name": "aurelium",
+  "displayName": "Aurelium",
+  "description": "Some description. Will update it soon.",
+  "version": "0.0.1",
+  "publisher": "der-codder",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/der-codder/aurelium-vscode-theme"
+  },
+  "engines": {
+    "vscode": "^1.25.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Aurelium",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aurelium-color-theme.json"
+      }
+    ]
+  }
+}
