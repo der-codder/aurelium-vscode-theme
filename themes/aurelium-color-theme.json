@@ -76,19 +76,11 @@
     "terminal.ansiBrightRed": "#FF5370",
     "terminal.ansiBrightYellow": "#FFE082"
   },
-  "tokenColors": [
-    {
+  "tokenColors": [{
       "name": "pink 300",
       "scope": "Color Palette",
       "settings": {
         "foreground": "#F06292"
-      }
-    },
-    {
-      "name": "lightGreen 500",
-      "scope": "Color Palette",
-      "settings": {
-        "foreground": "#8BC34A"
       }
     },
     {
@@ -124,6 +116,20 @@
       "scope": "Color Palette",
       "settings": {
         "foreground": "#4DB6AC"
+      }
+    },
+    {
+      "name": "lightGreen 500",
+      "scope": "Color Palette",
+      "settings": {
+        "foreground": "#8BC34A"
+      }
+    },
+    {
+      "name": "lime 600",
+      "scope": "Color Palette",
+      "settings": {
+        "foreground": "#8BC34A"
       }
     },
     {
@@ -258,7 +264,7 @@
         "storage.type.function.arrow"
       ],
       "settings": {
-        "foreground": "#4DB6AC"
+        "foreground": "#C0CA33"
       }
     },
     {
