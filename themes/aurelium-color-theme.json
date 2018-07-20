@@ -129,7 +129,7 @@
       "name": "lime 600",
       "scope": "Color Palette",
       "settings": {
-        "foreground": "#8BC34A"
+        "foreground": "#C0CA33"
       }
     },
     {
@@ -140,10 +140,10 @@
       }
     },
     {
-      "name": "orange 600",
+      "name": "orange 700",
       "scope": "Color Palette",
       "settings": {
-        "foreground": "#FB8C00"
+        "foreground": "#F57C00"
       }
     },
     {
@@ -151,6 +151,13 @@
       "scope": "Color Palette",
       "settings": {
         "foreground": "#FF7043"
+      }
+    },
+    {
+      "name": "brown 300",
+      "scope": "Color Palette",
+      "settings": {
+        "foreground": "#A1887F"
       }
     },
     {
@@ -182,14 +189,14 @@
       "scope": "string.quoted.docstring.multi.python",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#78C39C"
+        "foreground": "#A1887F"
       }
     },
     {
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#8BC34A"
+        "foreground": "#F57C00"
       }
     },
     {
@@ -240,7 +247,7 @@
         "variable.language.special.self.python"
       ],
       "settings": {
-        "foreground": "#4DB6AC"
+        "foreground": "#F06292"
       }
     },
     {
@@ -258,27 +265,43 @@
       }
     },
     {
+      "name": "Operators",
+      "scope": [
+        "keyword.operator.new",
+        "keyword.operator.expression",
+        "keyword.operator.cast",
+        "keyword.operator.sizeof",
+        "keyword.operator.logical.python"
+      ],
+      "settings": {
+        "foreground": "#FFE082"
+      }
+    },
+    {
       "name": "Operator Arrow",
       "scope": [
         "keyword.operator.arrow.cs",
         "storage.type.function.arrow"
       ],
       "settings": {
-        "foreground": "#C0CA33"
+        "foreground": "#FFE082"
       }
     },
     {
       "name": "Control flow keywords",
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#F06292"
+        "foreground": "#4DB6AC"
       }
     },
     {
       "name": "Decorators",
       "scope": [
-        "entity.name.function.decorator.python",
-        "punctuation.decorator"
+        "punctuation.decorator",
+        "meta.decorator variable.other.readwrite",
+        "meta.decorator entity.name.function",
+        "source.python entity.name.function.decorator",
+        "source.python meta.function.decorator support.type"
       ],
       "settings": {
         "foreground": "#00BCD4"
@@ -316,21 +339,23 @@
       }
     },
     {
-      "name": "Inherited class",
+      "name": "Function name",
       "scope": [
         "entity.name.function",
         "support.function",
         "support.constant.handlebars"
       ],
       "settings": {
-        "foreground": "#FB8C00"
+        "foreground": "#C0CA33"
       }
     },
     {
-      "name": "Function name",
-      "scope": "entity.name.function",
+      "name": "[Python] Function Call",
+      "scope": [
+        "source.python meta.function-call.generic"
+      ],
       "settings": {
-        "foreground": "#FB8C00"
+        "foreground": "#C0CA33"
       }
     },
     {
@@ -338,31 +363,6 @@
       "scope": "variable.parameter",
       "settings": {
         "foreground": "#9FA8DA"
-      }
-    },
-    {
-      "name": "meta.function-call.generic.python",
-      "scope": "meta.function-call.generic.python",
-      "settings": {
-        "foreground": "#03A9F4"
-      }
-    },
-    {
-      "scope": "meta.structure.dictionary.key.python",
-      "settings": {
-        "foreground": "#ff0000"
-      }
-    },
-    {
-      "scope": [
-        "keyword.operator.new",
-        "keyword.operator.expression",
-        "keyword.operator.cast",
-        "keyword.operator.sizeof",
-        "keyword.operator.logical.python"
-      ],
-      "settings": {
-        "foreground": "#FFE082"
       }
     },
     {
@@ -388,7 +388,7 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#FB8C00"
+        "foreground": "#F57C00"
       }
     },
     {
@@ -464,7 +464,7 @@
       "name": "Markup Quote",
       "scope": "markup.quote",
       "settings": {
-        "foreground": "#8BC34A"
+        "foreground": "#F57C00"
       }
     },
     {
@@ -474,7 +474,7 @@
         "markup.italic"
       ],
       "settings": {
-        "foreground": "#8BC34A"
+        "foreground": "#F57C00"
       }
     },
     {
@@ -488,7 +488,7 @@
       "name": "Markup Setext Header",
       "scope": "markup.heading.setext",
       "settings": {
-        "foreground": "#FB8C00"
+        "foreground": "#F57C00"
       }
     }
   ]
