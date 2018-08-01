@@ -284,6 +284,15 @@
         "storage.type.function.arrow"
       ],
       "settings": {
+        "foreground": "#F06292"
+      }
+    },
+    {
+      "name": "Punctuation Terminator Statement",
+      "scope": [
+        "punctuation.terminator.statement"
+      ],
+      "settings": {
         "foreground": "#FFE082"
       }
     },
