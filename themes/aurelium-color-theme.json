@@ -200,6 +200,16 @@
       }
     },
     {
+      "name": "Template Expression",
+      "scope": [
+        "punctuation.definition.template-expression",
+        "punctuation.definition.interpolation"
+      ],
+      "settings": {
+        "foreground": "#CE93D8"
+      }
+    },
+    {
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
