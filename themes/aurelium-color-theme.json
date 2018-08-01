@@ -339,7 +339,7 @@
       }
     },
     {
-      "name": "Function name",
+      "name": "Function call",
       "scope": [
         "entity.name.function",
         "support.function",
