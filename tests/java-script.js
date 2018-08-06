@@ -82,7 +82,7 @@ describe('Driver controller', () => {
     Driver.count().then(count => {
       request(app)
         .post('/api/drivers')
-        .send({ email: 'test@test.com' })
+        .send({ email: ['test@test.com'], sound: Sound.prototype.play })
         .end(() => {
           Driver.count().then(newCount => {
             assert(count + 1 === newCount);

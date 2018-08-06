@@ -9,7 +9,6 @@ import { ThemeUtils } from '../models/theme-utils';
 
 @Injectable()
 export class GalleryService {
-  private readonly array = ['str1', 'str2'];
   private readonly obj = { name: 'John' };
   private readonly galleryUri = 'assets/data/gallery.json';
   private readonly cachePrefix = 'cache_';
@@ -45,7 +44,7 @@ export class GalleryService {
 
         throw new Error('Specified id not found.');
       });
-  } 
+  }
 
   /**
    * Returns theme by its information.

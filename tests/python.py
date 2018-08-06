@@ -4,6 +4,15 @@ from utility.hash_util import hash_string_256, hash_block
 from wallet import Wallet
 
 
+class Dog:
+
+    def __init__(self, name):
+        self.name = name
+
+    def get_name(self):
+        return self.name
+
+
 class Verification:
 
     @staticmethod

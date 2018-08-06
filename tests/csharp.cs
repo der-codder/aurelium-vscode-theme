@@ -1,3 +1,19 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 using System.Collections.Generic;
 using System.Linq;
 using Abp.Domain.Entities;
@@ -61,6 +77,14 @@ namespace Abp.MemoryDb.Repositories
       {
         Table.RemoveAt(index);
       }
+      if (index >= 0)
+      {
+        Table.RemoveAt(index);
+      }
+      if (index != 0)
+      {
+        Table.RemoveAt(index);
+      }
     }
   }
 
@@ -80,10 +104,10 @@ namespace Abp.MemoryDb.Repositories
     public static PhoneNumber Parse(string number)
     {
       if (String.IsNullOrWhiteSpace(number))
-          throw new ArgumentException("Phone number cannot be blank.");
+        throw new ArgumentException("Phone number cannot be blank.");
       
       if (number.Length != 10)
-          throw new ArgumentException("Phone number should be 10 digits long.");
+        throw new ArgumentException("Phone number should be 10 digits long.");
 
       var area = number.Substring(0, 3);
       var major = number.Substring(3, 3);
