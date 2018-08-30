@@ -58,23 +58,24 @@
     "editorLineNumber.activeForeground": "#c2c2c2",
     "list.dropBackground": "#383B3D",
     "sideBarTitle.foreground": "#BBBBBB",
-
-    "terminal.ansiWhite": "#D4D4D4",
-    "terminal.ansiBlack": "#000000",
+    
+    "terminal.foreground": "#D4D4D4",
+    "terminal.ansiBlack": "#3b4252",
+    "terminal.ansiRed": "#FF395B",
+    "terminal.ansiGreen": "#7EB73D",
     "terminal.ansiBlue": "#03A9F4",
-    "terminal.ansiCyan": "#4DD0E1",
-    "terminal.ansiGreen": "#8BC34A",
-    "terminal.ansiMagenta": "#7E57C2",
-    "terminal.ansiRed": "#FF4D4D",
-    "terminal.ansiYellow": "#FFD54F",
-    "terminal.ansiBrightWhite": "#D4D4D4",
-    "terminal.ansiBrightBlack": "#546E7A",
-    "terminal.ansiBrightBlue": "#03A9F4",
-    "terminal.ansiBrightCyan": "#4DD0E1",
-    "terminal.ansiBrightGreen": "#8BC34A",
-    "terminal.ansiBrightMagenta": "#7E57C2",
-    "terminal.ansiBrightRed": "#FF4D4D",
-    "terminal.ansiBrightYellow": "#FFD54F"
+    "terminal.ansiCyan": "#00A5BA",
+    "terminal.ansiMagenta": "#C580D1",
+    "terminal.ansiYellow": "#FFD34F",
+    "terminal.ansiWhite": "#E1E1E1",
+    "terminal.ansiBrightBlack": "#4C566A",
+    "terminal.ansiBrightRed": "#FF5370",
+    "terminal.ansiBrightGreen": "#97C95D",
+    "terminal.ansiBrightBlue": "#14B4FC",
+    "terminal.ansiBrightCyan": "#00BCD4",
+    "terminal.ansiBrightMagenta": "#CE93D8",
+    "terminal.ansiBrightYellow": "#FFE082",
+    "terminal.ansiBrightWhite": "#EDEDED",
   },
   "tokenColors": [
     {
@@ -277,6 +278,7 @@
         "storage.type.function.arrow"
       ],
       "settings": {
+        "fontStyle": "bold",
         "foreground": "#B388FF"
       }
     },
@@ -286,7 +288,7 @@
         "punctuation.terminator.statement"
       ],
       "settings": {
-        "foreground": "#FF7043"
+        "foreground": "#F50057"
       }
     },
     {
@@ -410,7 +412,7 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#F57C00"
+        "foreground": "#CE93D8"
       }
     },
     {
@@ -497,11 +499,21 @@
       }
     },
     {
-      "name": "Markup Bold Italic",
-      "scope": "markup.bold markup.italic",
+      "name": "Markup Italic/Bold",
+      "scope": [
+        "markup.italic markup.bold"
+      ],
       "settings": {
-        "fontStyle": "italic bold",
-        "foreground": "#D4D4AA"
+        "fontStyle": "bold italic"
+      }
+    },
+    {
+      "name": "Markup Bold/Italic",
+      "scope": [
+        "markup.bold markup.italic"
+      ],
+      "settings": {
+        "fontStyle": "bold italic"
       }
     },
     {
