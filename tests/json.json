@@ -1,0 +1,30 @@
+{
+  "test0": "value0",
+  "level0": {
+    "test1": "value1",
+    "level1": {
+      "test2": "value2",
+      "level2": {
+        "test3": "value3",
+        "level3": {
+          "test4": "value4",
+          "level4": {
+            "test5": "value5",
+            "level5": {
+              "test6": "value6",
+              "level6": {
+                "test7": "value7",
+                "level7": {
+                  "test8": "value8",
+                  "level8": {
+                    "test": "value"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
