@@ -58,30 +58,30 @@
     "editorLineNumber.activeForeground": "#c2c2c2",
     "list.dropBackground": "#383B3D",
     "sideBarTitle.foreground": "#BBBBBB",
-    
-    "terminal.foreground": "#D4D4D4",
-    "terminal.ansiBlack": "#3b4252",
+
+    "terminal.ansiBlack": "#737F9A",
     "terminal.ansiRed": "#FF395B",
-    "terminal.ansiGreen": "#7EB73D",
-    "terminal.ansiBlue": "#03A9F4",
-    "terminal.ansiCyan": "#00A5BA",
+    "terminal.ansiGreen": "#4CAF50",
+    "terminal.ansiBlue": "#2A99F4",
+    "terminal.ansiCyan": "#00ACC1",
     "terminal.ansiMagenta": "#C580D1",
-    "terminal.ansiYellow": "#FFD34F",
+    "terminal.ansiYellow": "#FBB814",
     "terminal.ansiWhite": "#E1E1E1",
-    "terminal.ansiBrightBlack": "#4C566A",
-    "terminal.ansiBrightRed": "#FF5370",
-    "terminal.ansiBrightGreen": "#97C95D",
-    "terminal.ansiBrightBlue": "#14B4FC",
+
+    "terminal.ansiBrightBlack": "#78909C",
+    "terminal.ansiBrightRed": "#FF6C85",
+    "terminal.ansiBrightGreen": "#66BB6A",
+    "terminal.ansiBrightBlue": "#42A5F5",
     "terminal.ansiBrightCyan": "#00BCD4",
     "terminal.ansiBrightMagenta": "#CE93D8",
-    "terminal.ansiBrightYellow": "#FFE082",
-    "terminal.ansiBrightWhite": "#EDEDED",
+    "terminal.ansiBrightYellow": "#FBC02D",
+    "terminal.ansiBrightWhite": "#EDEDED"
   },
   "tokenColors": [
     {
       "name": "Object literals",
       "scope": [
-        "meta.objectliteral",
+        "meta.objectliteral punctuation.definition.block",
         "punctuation.definition.dict",
         "punctuation.definition.dictionary.begin.json",
         "punctuation.definition.dictionary.end.json"
@@ -93,27 +93,13 @@
     {
       "name": "Array literals",
       "scope": [
-        "meta.array.literal",
+        "meta.array.literal meta.brace.square",
         "punctuation.definition.list",
         "punctuation.definition.array.begin.json",
         "punctuation.definition.array.end.json"
       ],
       "settings": {
         "foreground": "#18FFFF"
-      }
-    },
-    {
-      "name": "Reset 'Array & object literals' side effects",
-      "scope": [
-        "meta.brace.round",
-        "meta.function.expression",
-        "meta.method.declaration",
-        "punctuation.accessor",
-        "punctuation.separator",
-        "punctuation.definition.parameters"
-      ],
-      "settings": {
-        "foreground": "#D4D4D4"
       }
     },
     {
@@ -208,18 +194,8 @@
         "variable.parameter.function.language.special.cls.python"
       ],
       "settings": {
-        "foreground": "#F50057"
-      }
-    },
-    {
-      "name": "Parameter Function self/cls",
-      "scope": [
-        "variable.parameter.function.language.special.self.python",
-        "variable.parameter.function.language.special.cls.python"
-      ],
-      "settings": {
-        "foreground": "#F50057CE"
-      }
+        "foreground": "#FFF176"
+      },
     },
     {
       "name": "Keyword",
@@ -257,7 +233,7 @@
         "keyword.operator.sizeof"
       ],
       "settings": {
-        "foreground": "#4DD0E1"
+        "foreground": "#03A9F4"
       }
     },
     {
@@ -329,8 +305,6 @@
 			"name": "Types declaration and references",
 			"scope": [
 				"meta.return-type",
-				"support.class",
-				"support.type",
 				"entity.name.type",
 				"entity.name.class",
 				"storage.type.cs",
@@ -353,6 +327,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
+        "fontStyle": "bold",
 				"foreground": "#FFD54F"
 			}
 		},
@@ -367,6 +342,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
+        "fontStyle": "bold",
 				"foreground": "#FFD54F"
 			}
 		},

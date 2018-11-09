@@ -29,8 +29,8 @@ export class GalleryService {
         .do(data => {
           this.cacheService.set(this.galleryUri, data, {maxAge: 7 * 24 * 60 * 60});
         });
-    }    
-  }  
+    }
+  }
 
   /**
    * Returns information about theme by its id.
@@ -51,7 +51,7 @@ export class GalleryService {
    */
   public getTheme(themeInfo: ThemeInfo): Observable<Theme> {
     const galleryItem = this.cacheService.get(this.cachePrefix + themeInfo.url);
-    
+
     if (galleryItem) {
       const theme = ThemeUtils.fromJSON(galleryItem, themeInfo.uiTheme);
       return Observable.of(theme);
@@ -65,4 +65,25 @@ export class GalleryService {
         });
     }
   }
+}
+
+
+@Component({
+  selector: 'app-readability-view',
+  template: `
+    <h1>Header</h1>
+    <span>{{ msg }}</span>
+  `,
+  styles: [`
+    h1 {
+      display: inline;
+      margin-left: 10px;
+    }
+    span {
+      margin-left: 10px;
+    }
+  `]
+})
+export class SomeComponent {
+  msg = 'some message';
 }
