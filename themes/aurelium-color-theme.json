@@ -122,7 +122,7 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#F57C00"
+        "foreground": "#8BC34A"
       }
     },
     {
@@ -195,7 +195,7 @@
       ],
       "settings": {
         "foreground": "#FFF176"
-      },
+      }
     },
     {
       "name": "Keyword",
@@ -355,7 +355,7 @@
         "source.python meta.function-call.generic"
       ],
       "settings": {
-        "foreground": "#8BC34A"
+        "foreground": "#F57C00"
       }
     },
     {
@@ -426,7 +426,7 @@
       "name": "diff: inserted",
       "scope": "markup.inserted",
       "settings": {
-        "foreground": "#8BC34A"
+        "foreground": "#F57C00"
       }
     },
     {
@@ -448,7 +448,7 @@
       "name": "Markup Lists",
       "scope": "markup.list",
       "settings": {
-        "foreground": "#8BC34A"
+        "foreground": "#F57C00"
       }
     },
     {

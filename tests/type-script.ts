@@ -86,4 +86,6 @@ export class GalleryService {
 })
 export class SomeComponent {
   msg = 'some message';
+
+  @Input() age: number;
 }
