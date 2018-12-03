@@ -284,6 +284,7 @@
         "source.python meta.function.decorator support.type"
       ],
       "settings": {
+        "fontStyle": "bold",
         "foreground": "#CDDC39"
       }
     },
