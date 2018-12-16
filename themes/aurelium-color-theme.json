@@ -378,6 +378,20 @@
       }
     },
     {
+      "name": "CSS property value",
+      "scope": [
+          "entity.other.attribute-name.class.css",
+          "support.constant.property-value.css",
+          "constant.numeric.css",
+          "meta.property-value.css",
+          "source.css constant.other.color",
+          "source.css support.constant.color"
+        ],
+      "settings": {
+        "foreground": "#FFD54F"
+      }
+    },
+    {
       "name": "Tag name",
       "scope": "entity.name.tag",
       "settings": {
