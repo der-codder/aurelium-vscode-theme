@@ -103,6 +103,16 @@
       }
     },
     {
+      "name": "Neutral foreground",
+      "scope": [
+        "support.other.variable",
+        "meta.function.misc"
+      ],
+      "settings": {
+        "foreground": "#D4D4D4"
+      }
+    },
+    {
       "name": "Comment",
       "scope": "comment",
       "settings": {
@@ -261,10 +271,11 @@
     {
       "name": "Punctuation Terminator Statement",
       "scope": [
-        "punctuation.terminator.statement"
+        "punctuation.terminator.statement",
+        "punctuation.terminator.rule"
       ],
       "settings": {
-        "foreground": "#F50057"
+        "foreground": "#ffffff"
       }
     },
     {
@@ -407,13 +418,6 @@
       ],
       "settings": {
         "foreground": "#CE93D8"
-      }
-    },
-    {
-      "name": "Library variable",
-      "scope": "support.other.variable",
-      "settings": {
-        "foreground": "#D4D4D4"
       }
     },
     {
