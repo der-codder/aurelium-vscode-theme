@@ -38,6 +38,8 @@
     "tab.activeBorder": "#f47023",
     "tab.inactiveBackground": "#333",
 
+    "breadcrumb.background": "#3c3c3c",
+
     "panelTitle.activeBorder": "#f47023",
 
     "statusBar.background": "#323232",
@@ -56,12 +58,13 @@
     "editor.selectionHighlightBackground": "#ADD6FF26",
     "editorIndentGuide.background": "#404040",
     "editorLineNumber.activeForeground": "#c2c2c2",
+    "editorBracketMatch.background": "#505050",
     "list.dropBackground": "#383B3D",
     "sideBarTitle.foreground": "#BBBBBB",
 
     "terminal.ansiBlack": "#737F9A",
     "terminal.ansiRed": "#FF395B",
-    "terminal.ansiGreen": "#4CAF50",
+    "terminal.ansiGreen": "#71c71c",
     "terminal.ansiBlue": "#2A99F4",
     "terminal.ansiCyan": "#00ACC1",
     "terminal.ansiMagenta": "#C580D1",
@@ -70,7 +73,7 @@
 
     "terminal.ansiBrightBlack": "#78909C",
     "terminal.ansiBrightRed": "#FF6C85",
-    "terminal.ansiBrightGreen": "#66BB6A",
+    "terminal.ansiBrightGreen": "#8AE234",
     "terminal.ansiBrightBlue": "#42A5F5",
     "terminal.ansiBrightCyan": "#00BCD4",
     "terminal.ansiBrightMagenta": "#CE93D8",
@@ -181,7 +184,7 @@
         "entity.name.variable"
       ],
       "settings": {
-        "foreground": "#4DD0E1"
+        "foreground": "#A8D7EF"
       }
     },
     {
