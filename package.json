@@ -16,11 +16,15 @@
     "Themes"
   ],
   "contributes": {
-    "themes": [
-      {
-        "label": "Aurelium",
+    "themes": [{
+        "label": "Aurelium Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/aurelium-color-theme.json"
+        "path": "./themes/aurelium-dark.json"
+      },
+      {
+        "label": "Aurelium Light",
+        "uiTheme": "vs",
+        "path": "./themes/aurelium-light.json"
       }
     ]
   }

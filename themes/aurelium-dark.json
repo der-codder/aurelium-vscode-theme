@@ -42,14 +42,14 @@
 
     "panelTitle.activeBorder": "#f47023",
 
-    "statusBar.background": "#323232",
-    "statusBar.border": "#505050",
-    "statusBar.foreground": "#9da5b4",
-    "statusBarItem.hoverBackground": "#2c313a",
-    "statusBar.noFolderBackground": "#323232",
-    "statusBar.debuggingBackground": "#7e0097",
-    "statusBar.debuggingBorder": "#66017a",
-    "statusBar.debuggingForeground": "#ffffff",
+    // "statusBar.background": "#323232",
+    // "statusBar.border": "#505050",
+    // "statusBar.foreground": "#9da5b4",
+    // "statusBarItem.hoverBackground": "#2c313a",
+    // "statusBar.noFolderBackground": "#323232",
+    // "statusBar.debuggingBackground": "#7e0097",
+    // "statusBar.debuggingBorder": "#66017a",
+    // "statusBar.debuggingForeground": "#ffffff",
 
     "editor.background": "#1E1E1E",
     "editor.foreground": "#D4D4D4",
@@ -107,10 +107,7 @@
     },
     {
       "name": "Neutral foreground",
-      "scope": [
-        "support.other.variable",
-        "meta.function.misc"
-      ],
+      "scope": ["support.other.variable", "meta.function.misc"],
       "settings": {
         "foreground": "#D4D4D4"
       }
@@ -164,10 +161,7 @@
     },
     {
       "name": "User-defined constant",
-      "scope": [
-        "constant.character",
-        "constant.other"
-      ],
+      "scope": ["constant.character", "constant.other"],
       "settings": {
         "foreground": "#9FA8DA"
       }
@@ -184,14 +178,12 @@
         "entity.name.variable"
       ],
       "settings": {
-        "foreground": "#A8D7EF"
+        "foreground": "#9ad0ec"
       }
     },
     {
       "name": "Object keys",
-      "scope": [
-        "meta.object-literal.key"
-      ],
+      "scope": ["meta.object-literal.key"],
       "settings": {
         "foreground": "#CE93D8"
       }
@@ -207,7 +199,7 @@
         "variable.parameter.function.language.special.cls.python"
       ],
       "settings": {
-        "foreground": "#FFF176"
+        "foreground": "#D4D4D4"
       }
     },
     {
@@ -229,10 +221,7 @@
     },
     {
       "name": "Operator Assignment and Arithmetic",
-      "scope": [
-        "keyword.operator.assignment",
-        "keyword.operator.arithmetic"
-      ],
+      "scope": ["keyword.operator.assignment", "keyword.operator.arithmetic"],
       "settings": {
         "foreground": "#D4D4D4"
       }
@@ -262,10 +251,7 @@
     },
     {
       "name": "Operator Arrow",
-      "scope": [
-        "keyword.operator.arrow.cs",
-        "storage.type.function.arrow"
-      ],
+      "scope": ["keyword.operator.arrow.cs", "storage.type.function.arrow"],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#B388FF"
@@ -316,51 +302,51 @@
         "foreground": "#03A9F4"
       }
     },
-		{
-			"name": "Types declaration and references",
-			"scope": [
-				"meta.return-type",
-				"entity.name.type",
-				"entity.name.class",
-				"storage.type.cs",
-				"storage.type.generic.cs",
-				"storage.type.modifier.cs",
-				"storage.type.variable.cs",
-				"storage.type.annotation.java",
-				"storage.type.generic.java",
-				"storage.type.java",
-				"storage.type.object.array.java",
-				"storage.type.primitive.array.java",
-				"storage.type.primitive.java",
-				"storage.type.token.java",
-				"storage.type.groovy",
-				"storage.type.annotation.groovy",
-				"storage.type.parameters.groovy",
-				"storage.type.generic.groovy",
-				"storage.type.object.array.groovy",
-				"storage.type.primitive.array.groovy",
-				"storage.type.primitive.groovy"
-			],
-			"settings": {
+    {
+      "name": "Types declaration and references",
+      "scope": [
+        "meta.return-type",
+        "entity.name.type",
+        "entity.name.class",
+        "storage.type.cs",
+        "storage.type.generic.cs",
+        "storage.type.modifier.cs",
+        "storage.type.variable.cs",
+        "storage.type.annotation.java",
+        "storage.type.generic.java",
+        "storage.type.java",
+        "storage.type.object.array.java",
+        "storage.type.primitive.array.java",
+        "storage.type.primitive.java",
+        "storage.type.token.java",
+        "storage.type.groovy",
+        "storage.type.annotation.groovy",
+        "storage.type.parameters.groovy",
+        "storage.type.generic.groovy",
+        "storage.type.object.array.groovy",
+        "storage.type.primitive.array.groovy",
+        "storage.type.primitive.groovy"
+      ],
+      "settings": {
         "fontStyle": "bold",
-				"foreground": "#FFD54F"
-			}
-		},
-		{
-			"name": "Types declaration and references, TS grammar specific",
-			"scope": [
-				"meta.type.cast.expr",
-				"meta.type.new.expr",
-				"support.constant.math",
-				"support.constant.dom",
-				"support.constant.json",
-				"entity.other.inherited-class"
-			],
-			"settings": {
+        "foreground": "#dc69be"
+      }
+    },
+    {
+      "name": "Types declaration and references, TS grammar specific",
+      "scope": [
+        "meta.type.cast.expr",
+        "meta.type.new.expr",
+        "support.constant.math",
+        "support.constant.dom",
+        "support.constant.json",
+        "entity.other.inherited-class"
+      ],
+      "settings": {
         "fontStyle": "bold",
-				"foreground": "#FFD54F"
-			}
-		},
+        "foreground": "#dc69be"
+      }
+    },
     {
       "name": "Function call",
       "scope": [
@@ -370,7 +356,7 @@
         "source.python meta.function-call.generic"
       ],
       "settings": {
-        "foreground": "#F57C00"
+        "foreground": "#FFD54F"
       }
     },
     {
@@ -383,13 +369,13 @@
     {
       "name": "CSS property value",
       "scope": [
-          "entity.other.attribute-name.class.css",
-          "support.constant.property-value.css",
-          "constant.numeric.css",
-          "meta.property-value.css",
-          "source.css constant.other.color",
-          "source.css support.constant.color"
-        ],
+        "entity.other.attribute-name.class.css",
+        "support.constant.property-value.css",
+        "constant.numeric.css",
+        "meta.property-value.css",
+        "source.css constant.other.color",
+        "source.css support.constant.color"
+      ],
       "settings": {
         "foreground": "#FFD54F"
       }
@@ -429,10 +415,7 @@
     },
     {
       "name": "Library class/type",
-      "scope": [
-        "support.type",
-        "support.class"
-      ],
+      "scope": ["support.type", "support.class"],
       "settings": {
         "foreground": "#CE93D8"
       }
@@ -468,19 +451,16 @@
     },
     {
       "name": "Markup Lists",
-      "scope": [
-        "markup.list",
-        "punctuation.definition.list.begin.markdown"
-      ],
+      "scope": ["markup.list", "punctuation.definition.list.begin.markdown"],
       "settings": {
-        "foreground": "#F57C00"
+        "foreground": "#CE93D8"
       }
     },
     {
       "name": "Markup Quote",
       "scope": "markup.quote",
       "settings": {
-        "foreground": "#a1887f"
+        "foreground": "#03A9F4"
       }
     },
     {
@@ -501,18 +481,14 @@
     },
     {
       "name": "Markup Italic/Bold",
-      "scope": [
-        "markup.italic markup.bold"
-      ],
+      "scope": ["markup.italic markup.bold"],
       "settings": {
         "fontStyle": "bold italic"
       }
     },
     {
       "name": "Markup Bold/Italic",
-      "scope": [
-        "markup.bold markup.italic"
-      ],
+      "scope": ["markup.bold markup.italic"],
       "settings": {
         "fontStyle": "bold italic"
       }
