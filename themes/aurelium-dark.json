@@ -41,7 +41,7 @@
     "breadcrumb.background": "#3c3c3c",
 
     "panelTitle.activeBorder": "#f47023",
-    "panel.background": "#333",
+    "panel.background": "#1c202a",
 
     // "statusBar.background": "#323232",
     // "statusBar.border": "#505050",
@@ -52,9 +52,9 @@
     // "statusBar.debuggingBorder": "#66017a",
     // "statusBar.debuggingForeground": "#ffffff",
 
-    "editor.background": "#1E1E1E",
+    "editor.background": "#232834",
     "editor.foreground": "#D4D4D4",
-    "editor.lineHighlightBackground": "#2b2b2b",
+    "editor.lineHighlightBackground": "#313848",
     "editor.inactiveSelectionBackground": "#3A3D41",
     "editor.selectionHighlightBackground": "#ADD6FF26",
     "editorIndentGuide.background": "#404040",
@@ -66,6 +66,7 @@
     "editorCursor.foreground": "#ADFF2F",
     "terminalCursor.foreground": "#ADFF2F",
     "terminal.selectionBackground": "#ADFF2F4C",
+    "terminal.background": "#232834",
 
     "terminal.ansiBlack": "#000000",
     "terminal.ansiRed": "#E54B4B",
@@ -136,7 +137,7 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#8BC34A"
+        "foreground": "#BAE67E"
       }
     },
     {
@@ -146,7 +147,7 @@
         "punctuation.definition.interpolation"
       ],
       "settings": {
-        "foreground": "#CE93D8"
+        "foreground": "#D4BFFF"
       }
     },
     {
@@ -189,7 +190,7 @@
       "name": "Object keys",
       "scope": ["meta.object-literal.key"],
       "settings": {
-        "foreground": "#CE93D8"
+        "foreground": "#D4BFFF"
       }
     },
     {
@@ -203,7 +204,8 @@
         "variable.parameter.function.language.special.cls.python"
       ],
       "settings": {
-        "foreground": "#D4D4D4"
+        "fontStyle": "italic",
+        "foreground": "#53afdf"
       }
     },
     {
@@ -250,7 +252,7 @@
         "keyword.operator.comparison."
       ],
       "settings": {
-        "foreground": "#F06292"
+        "foreground": "#FFE6B3"
       }
     },
     {
@@ -289,7 +291,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#CDDC39"
+        "foreground": "#FFE6B3"
       }
     },
     {
@@ -333,7 +335,15 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#dc69be"
+        "foreground": "#95E6CB"
+      }
+    },
+    {
+      "name": "Namespaces",
+      "scope": ["entity.name.type.namespace.cs"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#CCF3E6"
       }
     },
     {
@@ -348,7 +358,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#dc69be"
+        "foreground": "#95E6CB"
       }
     },
     {
@@ -360,7 +370,7 @@
         "source.python meta.function-call.generic"
       ],
       "settings": {
-        "foreground": "#FFD54F"
+        "foreground": "#FFCC66"
       }
     },
     {
@@ -381,7 +391,7 @@
         "source.css support.constant.color"
       ],
       "settings": {
-        "foreground": "#FFD54F"
+        "foreground": "#FFD580"
       }
     },
     {
@@ -407,21 +417,21 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#CE93D8"
+        "foreground": "#D4BFFF"
       }
     },
     {
       "name": "Library constant",
       "scope": "support.constant",
       "settings": {
-        "foreground": "#CE93D8"
+        "foreground": "#D4BFFF"
       }
     },
     {
       "name": "Library class/type",
       "scope": ["support.type", "support.class"],
       "settings": {
-        "foreground": "#CE93D8"
+        "foreground": "#D4BFFF"
       }
     },
     {
@@ -443,21 +453,21 @@
       "scope": "markup.heading",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#ffd54f"
+        "foreground": "#FFD580"
       }
     },
     {
       "name": "Markup Links",
       "scope": "markup.underline.link",
       "settings": {
-        "foreground": "#ce93d8"
+        "foreground": "#D4BFFF"
       }
     },
     {
       "name": "Markup Lists",
       "scope": ["markup.list", "punctuation.definition.list.begin.markdown"],
       "settings": {
-        "foreground": "#CE93D8"
+        "foreground": "#D4BFFF"
       }
     },
     {
