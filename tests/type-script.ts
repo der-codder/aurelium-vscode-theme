@@ -12,6 +12,7 @@ export class GalleryService {
   private readonly obj = { name: 'John' };
   private readonly galleryUri = 'assets/data/gallery.json';
   private readonly cachePrefix = 'cache_';
+  private num: number;
 
   constructor(private http: HttpClient, private cacheService: CacheService) {
   }

@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Aurelium",
+  "name": "Aurelium Dark",
   "type": "dark",
   "colors": {
     "button.background": "#097bed",
@@ -98,18 +98,18 @@
         "foreground": "#FFFF00"
       }
     },
-    {
-      "name": "Array literals",
-      "scope": [
-        "meta.array.literal meta.brace.square",
-        "punctuation.definition.list",
-        "punctuation.definition.array.begin.json",
-        "punctuation.definition.array.end.json"
-      ],
-      "settings": {
-        "foreground": "#18FFFF"
-      }
-    },
+    // {
+    //   "name": "Array literals",
+    //   "scope": [
+    //     "meta.array.literal meta.brace.square",
+    //     "punctuation.definition.list",
+    //     "punctuation.definition.array.begin.json",
+    //     "punctuation.definition.array.end.json"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#18FFFF"
+    //   }
+    // },
     {
       "name": "Neutral foreground",
       "scope": ["support.other.variable", "meta.function.misc"],
@@ -204,8 +204,8 @@
         "variable.parameter.function.language.special.cls.python"
       ],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#53afdf"
+        "fontStyle": "italic bold",
+        "foreground": "#CBCCC6"
       }
     },
     {
@@ -222,7 +222,7 @@
         "punctuation.separator.dictionary.key-value.json"
       ],
       "settings": {
-        "foreground": "#03A9F4"
+        "foreground": "#D4D4D4"
       }
     },
     {
@@ -270,7 +270,8 @@
         "punctuation.terminator.rule"
       ],
       "settings": {
-        "foreground": "#ffffff"
+        "fontStyle": "bold",
+        "foreground": "#F43F6D"
       }
     },
     {
@@ -280,20 +281,20 @@
         "foreground": "#B388FF"
       }
     },
-    {
-      "name": "Decorators",
-      "scope": [
-        "punctuation.decorator",
-        "meta.decorator variable.other.readwrite",
-        "meta.decorator entity.name.function",
-        "source.python entity.name.function.decorator",
-        "source.python meta.function.decorator support.type"
-      ],
-      "settings": {
-        "fontStyle": "bold",
-        "foreground": "#FFE6B3"
-      }
-    },
+    // {
+    //   "name": "Decorators",
+    //   "scope": [
+    //     "punctuation.decorator",
+    //     "meta.decorator variable.other.readwrite",
+    //     "meta.decorator entity.name.function",
+    //     "source.python entity.name.function.decorator",
+    //     "source.python meta.function.decorator support.type"
+    //   ],
+    //   "settings": {
+    //     "fontStyle": "bold",
+    //     "foreground": "#FFE6B3"
+    //   }
+    // },
     {
       "name": "keyword.other.unit",
       "scope": "keyword.other.unit",
@@ -398,7 +399,7 @@
       "name": "Tag name",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#03A9F4"
+        "foreground": "#5CCFE6"
       }
     },
     {
@@ -410,7 +411,7 @@
         "punctuation.definition.tag.end.html"
       ],
       "settings": {
-        "foreground": "#03A9F4b0"
+        "foreground": "#5CCFE6B0"
       }
     },
     {
@@ -429,7 +430,7 @@
     },
     {
       "name": "Library class/type",
-      "scope": ["support.type", "support.class"],
+      "scope": ["support.type", "keyword.type.cs", "support.class"],
       "settings": {
         "foreground": "#D4BFFF"
       }

@@ -5,6 +5,65 @@ using Abp.Domain.Repositories;
 
 namespace Abp.MemoryDb.Repositories
 {
+  interface IInterface
+  {
+    void UpdateInt(int number);
+  }
+
+  enum Colors
+  {
+    Red,
+    Yellow = 255
+  }
+
+  class Class1 : IInterface
+  {
+    private const int CONST_NUMBER = 42;
+
+    // some comment
+    private readonly string stringField = "It's a string";
+    private int intField = 6_000_000;
+
+    public int MyProperty { get; set; }
+
+    public Class1()
+    {
+      Console.WriteLine($"stringField: {stringField}, intField: {intField} test\n");
+      intField = (int) Colors.Red;
+    }
+
+    public void UpdateInt(int number)
+    {
+      intField = CONST_NUMBER + number;
+
+      var piDigital = 3.14;
+
+      Console.WriteLine(piDigital);
+    }
+
+    public void SayHello(string name)
+    {
+      Console.WriteLine($"Hello, {name}!");
+    }
+  }
+
+  class MyClass2
+  {
+    public void Foo()
+    {
+      var obj = new Class1();
+      obj.UpdateInt(123);
+      obj.SayHello("John");
+    }
+  }
+
+  public enum PieceColor
+  {
+    Red,
+    Yellow,
+    Blank
+  }
+
   //TODO: Implement thread-safety..?
   public class MemoryRepository<TEntity, TPrimaryKey> : AbpRepositoryBase<TEntity, TPrimaryKey>
     where TEntity : class, IEntity<TPrimaryKey>
@@ -84,19 +143,19 @@ namespace Abp.MemoryDb.Repositories
       Major = major;
       Minor = minor;
     }
-    
+
     public static PhoneNumber Parse(string number)
     {
       if (String.IsNullOrWhiteSpace(number))
         throw new ArgumentException("Phone number cannot be blank.");
-      
+
       if (number.Length != 10)
         throw new ArgumentException("Phone number should be 10 digits long.");
 
       var area = number.Substring(0, 3);
       var major = number.Substring(3, 3);
       var minor = number.Substring(6);
-      
+
       return new PhoneNumber(area, major, minor);
     }
 
