@@ -260,7 +260,7 @@
       "scope": ["keyword.operator.arrow.cs", "storage.type.function.arrow"],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#B388FF"
+        "foreground": "#FFDD66"
       }
     },
     {
@@ -271,7 +271,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#F43F6D"
+        "foreground": "#f47023"
       }
     },
     {
@@ -281,20 +281,19 @@
         "foreground": "#B388FF"
       }
     },
-    // {
-    //   "name": "Decorators",
-    //   "scope": [
-    //     "punctuation.decorator",
-    //     "meta.decorator variable.other.readwrite",
-    //     "meta.decorator entity.name.function",
-    //     "source.python entity.name.function.decorator",
-    //     "source.python meta.function.decorator support.type"
-    //   ],
-    //   "settings": {
-    //     "fontStyle": "bold",
-    //     "foreground": "#FFE6B3"
-    //   }
-    // },
+    {
+      "name": "Decorators",
+      "scope": [
+        "punctuation.decorator",
+        "meta.decorator variable.other.readwrite",
+        "source.python entity.name.function.decorator",
+        "source.python meta.function.decorator support.type"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#FFE6B3"
+      }
+    },
     {
       "name": "keyword.other.unit",
       "scope": "keyword.other.unit",
