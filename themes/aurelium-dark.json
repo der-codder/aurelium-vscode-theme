@@ -2,6 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Aurelium Dark",
   "type": "dark",
+	"semanticHighlighting": true,
   "colors": {
     "button.background": "#097bed",
     "button.hoverBackground": "#4a90e2",
@@ -15,8 +16,8 @@
     "badge.background": "#252525",
     "badge.foreground": "#7ed321",
 
-    "list.activeSelectionBackground": "#464646",
-    "list.activeSelectionForeground": "#d7dae0",
+    "list.activeSelectionBackground": "#f47023",
+    "list.activeSelectionForeground": "#ffffff",
     "list.focusBackground": "#6e6e6e",
     "list.hoverBackground": "#3c3c3c",
     "list.highlightForeground": "#C5C5C5",
@@ -35,7 +36,7 @@
     "editorGroupHeader.tabsBackground": "#4c4c4c",
     "tab.activeBackground": "#3c3c3c",
     "tab.border": "#464646",
-    "tab.activeBorder": "#f47023",
+    "tab.activeBorderTop": "#f47023",
     "tab.inactiveBackground": "#333",
 
     "breadcrumb.background": "#3c3c3c",
