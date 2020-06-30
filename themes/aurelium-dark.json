@@ -16,8 +16,8 @@
     "badge.background": "#252525",
     "badge.foreground": "#7ed321",
 
-    "list.activeSelectionBackground": "#f47023",
-    "list.activeSelectionForeground": "#ffffff",
+    // "list.activeSelectionBackground": "#464646",
+    // "list.activeSelectionForeground": "#d7dae0",
     "list.focusBackground": "#6e6e6e",
     "list.hoverBackground": "#3c3c3c",
     "list.highlightForeground": "#C5C5C5",
@@ -312,6 +312,8 @@
     {
       "name": "Types declaration and references",
       "scope": [
+        "meta.directive.implements",
+        "meta.directive.inject",
         "meta.return-type",
         "entity.name.type",
         "entity.name.class",

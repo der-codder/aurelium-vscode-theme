@@ -255,6 +255,8 @@
     {
       "name": "Types declaration and references",
       "scope": [
+        "meta.directive.implements",
+        "meta.directive.inject",
         "meta.return-type",
         "entity.name.type",
         "entity.name.class",
