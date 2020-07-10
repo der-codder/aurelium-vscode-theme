@@ -26,18 +26,34 @@
           "settings": {
             "foreground": "#00ff00"
           }
-        },
-        {
-          "name": "",
-          "scope": "entity.name.type.module.ts",
-          "settings": {
-            "foreground": "#1F3A93"
-          }
         }
       ]
     },
     "[Aurelium Light]": {
       "textMateRules": [
+        {
+          "name": "Razor directive page",
+          "scope": "meta.directive.page",
+          "settings": {
+            "foreground": "#1E9A03"
+          }
+        },
+        {
+          "name": "Razor directive inherits",
+          "scope": "meta.directive.inherits",
+          "settings": {
+            "fontStyle": "bold",
+            "foreground": "#0000B5"
+          }
+        },
+        {
+          "name": "Razor tag helper attribute",
+          "scope": "entity.name.class.attribute.taghelper",
+          "settings": {
+            "fontStyle": "",
+            "foreground": "#BC0AD5"
+          }
+        },
         {
           "name": "Storage",
           "scope": "storage",

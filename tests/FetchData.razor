@@ -1,10 +1,13 @@
 
 @page "/fetchdata"
+@inherits LayoutComponentBase
 
 @using BlazorConnectFour.Data
 @inject WeatherForecastService ForecastService
 
 <h1>Weather forecast</h1>
+
+<Greetings Message="@myName" />
 
 <p>This component demonstrates fetching data from a service.</p>
 
@@ -39,6 +42,7 @@ else
 
 @code {
     private WeatherForecast[] forecasts;
+    private string myName = "John";
 
     protected override async Task OnInitializedAsync()
     {

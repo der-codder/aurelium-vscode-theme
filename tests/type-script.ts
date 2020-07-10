@@ -86,7 +86,8 @@ export class GalleryService {
   `]
 })
 export class SomeComponent {
-  msg = 'some message';
+  name = "John";
+  msg = `some message ${name}`;
 
   @Input() age: number;
 }

@@ -34,7 +34,7 @@ namespace Abp.MemoryDb.Repositories
 
     public void UpdateInt(int number)
     {
-      intField = CONST_NUMBER + number;
+      intField = MyProperty + CONST_NUMBER + number;
 
       var piDigital = 3.14;
 

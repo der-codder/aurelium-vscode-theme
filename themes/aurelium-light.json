@@ -2,11 +2,12 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Aurelium Light",
   "type": "light",
-	"semanticHighlighting": true,
+  "semanticHighlighting": true,
   "colors": {
-		"editor.background": "#FFFFFF",
-		"editor.foreground": "#000000",
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#000000",
 
+    "activityBar.activeBorder": "#f47023",
     "activityBarBadge.background": "#f47023",
 
     "sideBar.border": "#e2e2e2",
@@ -23,7 +24,7 @@
     "breadcrumb.focusForeground": "#f47023",
     "breadcrumb.activeSelectionForeground": "#f47023",
 
-    "panelTitle.activeBorder": "#f47023",
+    "panelTitle.activeBorder": "#f47023"
   },
   "tokenColors": [
     {
@@ -127,7 +128,8 @@
         "variable.other.object",
         "meta.definition.variable.name",
         "support.variable",
-        "entity.name.variable"
+        "entity.name.variable",
+        "meta.interpolation variable.other.readwrite"
       ],
       "settings": {
         "foreground": "#1F3A93"
@@ -327,6 +329,29 @@
       }
     },
     {
+      "name": "Razor directive page",
+      "scope": "meta.directive.page",
+      "settings": {
+        "foreground": "#1E9A03"
+      }
+    },
+    {
+      "name": "Razor directive inherits",
+      "scope": "meta.directive.inherits",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#0000B5"
+      }
+    },
+    {
+      "name": "Razor tag helper attribute",
+      "scope": "entity.name.class.attribute.taghelper",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#BC0AD5"
+      }
+    },
+    {
       "name": "CSS property value",
       "scope": [
         "entity.other.attribute-name.class.css",
@@ -381,7 +406,7 @@
       "settings": {
         "foreground": "#7600A8"
       }
-    },
+    }
 
     // {
     //   "name": "diff: deleted",

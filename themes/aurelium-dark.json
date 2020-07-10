@@ -24,6 +24,7 @@
     "list.inactiveSelectionBackground": "#464646",
     "list.inactiveSelectionForeground": "#d7dae0",
 
+    "activityBar.activeBorder": "#f47023",
     "activityBar.background": "#4c4c4c",
     "activityBarBadge.background": "#f47023",
 
@@ -181,7 +182,8 @@
         "variable.other.object",
         "meta.definition.variable.name",
         "support.variable",
-        "entity.name.variable"
+        "entity.name.variable",
+        "meta.interpolation variable.other.readwrite"
       ],
       "settings": {
         "foreground": "#9ad0ec"
@@ -279,7 +281,7 @@
       "name": "Control flow keywords",
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#B388FF"
+        "foreground": "#FF8F40"
       }
     },
     {
@@ -381,6 +383,29 @@
       "scope": "variable.parameter",
       "settings": {
         "foreground": "#9FA8DA"
+      }
+    },
+    {
+      "name": "Razor directive page",
+      "scope": "meta.directive.page",
+      "settings": {
+        "foreground": "#BAE67E"
+      }
+    },
+    {
+      "name": "Razor directive inherits",
+      "scope": "meta.directive.inherits",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#95E6CB"
+      }
+    },
+    {
+      "name": "Razor tag helper attribute",
+      "scope": "entity.name.class.attribute.taghelper",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#D4BFFF"
       }
     },
     {
