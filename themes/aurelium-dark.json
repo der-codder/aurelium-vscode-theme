@@ -2,7 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Aurelium Dark",
   "type": "dark",
-	"semanticHighlighting": true,
+  "semanticHighlighting": true,
   "colors": {
     "button.background": "#097bed",
     "button.hoverBackground": "#4a90e2",
@@ -88,7 +88,8 @@
     "terminal.ansiBrightCyan": "#89DDFF",
     "terminal.ansiBrightWhite": "#FFFFFF"
   },
-  "tokenColors": [{
+  "tokenColors": [
+    {
       "name": "Object literals",
       "scope": [
         "meta.objectliteral punctuation.definition.block",
@@ -263,15 +264,12 @@
       "scope": ["keyword.operator.arrow.cs", "storage.type.function.arrow"],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#FFDD66"
+        "foreground": "#f47023"
       }
     },
     {
       "name": "Punctuation Terminator Statement",
-      "scope": [
-        "punctuation.terminator.statement",
-        "punctuation.terminator.rule"
-      ],
+      "scope": ["punctuation.terminator.statement", "punctuation.terminator.rule"],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#f47023"
@@ -537,10 +535,7 @@
     },
     {
       "name": "Markup Inline",
-      "scope": [
-        "markup.inline.raw",
-        "markup.fenced_code punctuation.definition.markdown"
-      ],
+      "scope": ["markup.inline.raw", "markup.fenced_code punctuation.definition.markdown"],
       "settings": {
         "foreground": "#18FFFF"
       }

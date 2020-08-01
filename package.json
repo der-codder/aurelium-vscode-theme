@@ -16,7 +16,8 @@
     "Themes"
   ],
   "contributes": {
-    "themes": [{
+    "themes": [
+      {
         "label": "Aurelium Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/aurelium-dark.json"
@@ -25,6 +26,11 @@
         "label": "Aurelium Light",
         "uiTheme": "vs",
         "path": "./themes/aurelium-light.json"
+      },
+      {
+        "label": "Sea Breeze",
+        "uiTheme": "vs-dark",
+        "path": "./themes/seabreeze.json"
       }
     ]
   }
